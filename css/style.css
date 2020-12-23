@@ -27,7 +27,6 @@
   box-sizing: border-box;
   
 }
-.port{margin-bottom: 94px;}
 .logo {
   margin-right:93px ;
 
@@ -105,8 +104,7 @@ a {
 .hero{
   padding-top: 200px;
   padding-bottom:200px ;
-  margin-bottom:94px ;
-
+ 
   background: var(--sub-beckground-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -146,7 +144,8 @@ a {
   margin: -1px;}
 
 .studio{
-  margin-bottom:94px ;
+  padding-top:94px ;
+  padding-bottom:94px ;
 }
 
 h2 { 
@@ -181,7 +180,7 @@ h2 {
   width: 270px;
   margin:0;}
 .works{
-   margin-bottom:94px ;
+   padding-bottom:94px ;
 }
 .pictures{
   display: flex;
@@ -189,6 +188,7 @@ h2 {
   padding: 0px;
   margin: 0;
 }
+ img{ display: block;}
 .foto {
  padding:94px 0 ;
  background: #f5f4fa;
@@ -228,11 +228,9 @@ h2 {
   line-height: 1.19;
   text-align: center;
   }
-.cards img{
-  display: block;}
-
 .portfolio{
-    margin-bottom:94px ;
+  padding-top: 94px;
+    padding-bottom:94px ;
   }
 .btn-list{
   display: flex;
@@ -274,13 +272,20 @@ h2 {
   margin: 0;
 }
 .imag-set{
+  margin-right:30px ;
+  margin-bottom:30px ;
+
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   width:370px;
   height: 404px;
-  margin-right:30px ;
-  margin-bottom:30px ;
 }
+.imag-set:hover,.imag-set:focus{
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+   0px 4px 4px rgba(0, 0, 0, 0.06), 
+   1px 4px 6px rgba(0, 0, 0, 0.16);
+   cursor: pointer;
+ }
 .imag-list >.imag-set:nth-child(3n){
   margin-right:0 ;
 }
@@ -302,17 +307,18 @@ h2 {
    
    font-size: 16px;
    line-height:1.87;
- 
-    }
-.sign img{
-  display: block; 
-}
+  }
+.form{padding:20px 24px;}
+
 .footer {
   padding-top: 60px;
   padding-bottom:60px ;
+  
   background: var(--sub-beckground-color);
 }
-.form{padding:20px 24px;}
+.ikon{
+  display:inline-flex;
+}
 .card{
   padding: 0;
   margin: 0px;
@@ -340,3 +346,13 @@ h2 {
   margin-bottom:20px ;}
 
 .card .vizit:not(:last-child){margin-bottom:9px ;}
+/*.ikon p{
+  padding: 0;
+  margin: 0 0 0 70px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color:var( --white-main-color) ;
+  }*/
