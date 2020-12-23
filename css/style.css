@@ -20,12 +20,7 @@
   align-items: center;
 }
 .header{
-  padding-top:24px ;
-  padding-bottom:25px ;
-
   border-bottom: 1px solid #ECECEC;
-  box-sizing: border-box;
-  
 }
 .logo {
   margin-right:93px ;
@@ -61,14 +56,18 @@ body {
 }
 .nav,
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom:32px ;
   cursor: pointer;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dark-main-color);
 }
-.nav-current {
+.current {
   color: var(--accent-color);
 }
 .nav:hover,
@@ -83,7 +82,6 @@ body {
 .list .link-list{ margin-left:auto;
 }
 .mail-link{
- 
   margin-right:50px
  ;}
 .link {
@@ -313,7 +311,7 @@ h2 {
 .footer {
   padding-top: 60px;
   padding-bottom:60px ;
-  
+
   background: var(--sub-beckground-color);
 }
 .ikon{
